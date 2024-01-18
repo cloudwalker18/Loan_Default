@@ -39,11 +39,11 @@ def main():
     
         output = int(prediction[0])
         if output == 1:
-            text = "Default"
+            text = "DEFAULT"
         else:
-            text = "Not Default"
+            text = "NOT DEFAULT"
 
-        st.success('This loan is {}'.format(text))
+        st.success('This loan is likely to {}'.format(text))
       
 if __name__=='__main__': 
     main()
